@@ -1,0 +1,161 @@
+body {
+    background-color: rgb(5, 5, 5);
+    color: rgb(57, 114, 66);
+    font-family: "lucida console", monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+hgroup {
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(30, 30, 30);
+    padding: 5px;
+    border-bottom: 7px solid rgb(20, 20, 20);
+    position: relative;
+    left: 10%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navlink {
+    border: 5px solid rgb(5, 5, 5);
+    border-style: solid;
+    border-width: 2px;
+    padding: 2px 3px 3px 3px;
+    background-color: rgb(15, 15, 15);
+}
+
+.currentpage {
+    background-color: rgb(5, 5, 5);
+    border: 5px solid rgb(5, 5, 5);
+}
+
+article {
+    background-color: rgb(30, 30, 30);
+    margin-top: 15px;
+    padding: 5px 2px 65px;
+    border-top: 7px solid rgb(20, 20, 20);
+    border-bottom: 7px solid rgb(20, 20, 20);
+    text-align: center;
+    position: relative;
+    left: 5%;
+}
+
+footer {
+    position: relative;
+    top: 10px;
+    font-size: small;
+}
+
+/*these three rules below are for mobilephone */
+.col_8s {
+    width: 80%;
+}
+
+.col_9s {
+    width: 90%;
+}
+
+.col_10s {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .col_5m {
+        width: 50%;
+    }
+
+    .col_6m {
+        width: 60%;
+    }
+
+    .col_7m {
+        width: 70%;
+    }
+
+    .col_8m {
+        width: 80%;
+    }
+
+    .col_9m {
+        width: 90%;
+    }
+
+    .col_10m {
+        width: 100%;
+    }
+
+
+    nav {
+        position: relative;
+        left: 25%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .col_1l {
+        width: 10%;
+    }
+
+    .col_2l {
+        width: 20%;
+    }
+
+    .col_3l {
+        width: 33%;
+    }
+
+    .col_4l {
+        width: 40%;
+    }
+
+    .col_5l {
+        width: 50%;
+    }
+
+    .col_6l {
+        width: 60%;
+    }
+
+    .col_7l {
+        width: 70%;
+    }
+
+    .col_8l {
+        width: 80%;
+    }
+
+    .col_9l {
+        width: 90%;
+    }
+
+    .col_10l {
+        width: 100%;
+    }
+
+    nav {
+        left: 5%;
+    }
+
+    footer {
+        position: relative;
+        top: 14px;
+    }
+}
+
+@media only screen and (min-width: 868px) {
+
+    .col_3xl {
+        width: 30%;
+    }
+
+}
