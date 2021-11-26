@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="multiple_column_layout.css">
+    <title>work background</title>
+</head>
+
+<body>
+    <hgroup class>
+        <h2>Lasse Myllärinen</h2>
+        <h3>Journey to the IT field</h3>
+    </hgroup>
+
+    <div class="container">
+
+        <nav>
+            <ul>
+                <li><a class="navlink" href="starting_page.html">start</a><br><br></li>
+                <li><a class="navlink" href="about_me.html">about me</a><br><br></li>
+                <li><a class="currentlink" href="work_background.html">work background</a><br><br></li>
+                <li><a class="navlink" href="prev_studies.html">previous studies</a><br><br></li>
+                <li><a class="navlink" href="studies_now.html">current studies</a><br><br></li>
+                <li><a class="navlink" href="plan.html">plan</a><br><br></li>
+            </ul>
+        </nav>
+
+        <main>
+            <header>
+                <h4>Workplaces;</h4>
+            </header>
+            <table>
+                <tr>
+                    <th class="th1">Company;</th>
+                    <th class="th2">years;</th>
+                    <th class="th3>">Task;</th>
+                </tr>
+                <tr>
+                    <td class="td1">Transpoint</td>
+                    <td class="td2">2006-2008</td>
+                    <td class="td3">officetasks</td>
+                </tr>
+                <tr>
+                    <td class="td1">Airpro</td>
+                    <td class="td2">2008-2010</td>
+                    <td class="td3">security check</td>
+                </tr>
+                <tr>
+                    <td class="td1">Citymarket</td>
+                    <td class="td2">2010-2016</td>
+                    <td class="td3">cashiers and other tasks</td>
+                </tr>
+                <tr>
+                    <td class="td1">Porvoo City, home care</td>
+                    <td class="td2">2016-2021</td>
+                    <td class="td3">Nursing</td>
+                </tr>
+            </table>
+        </main>
+
+        <footer>
+            <details>
+                <summary>view and validation</summary>
+                <p>multiple column layout.
+                    <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.example.com%2F">click; the validity of
+                        this page</a>
+                </p>
+                <p>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px"
+                            src="http://jigsaw.w3.org/css-validator/images/vcss"
+                            alt="Valid CSS!" />
+                    </a>
+                </p>
+            </details>
+        </footer>
+    </div>
+
+</body>
+
+</html>
