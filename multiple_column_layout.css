@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(5, 5, 5);
+    color: rgb(57, 114, 66);
+    font-family: "lucida console", monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(30, 30, 30);
+    padding: 5px;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    border-bottom: 7px solid rgb(20, 20, 20);
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.navlink {
+    border: 5px solid rgb(5, 5, 5);
+    border-style: solid;
+    border-width: 2px;
+    padding: 2px 3px 3px 3px;
+    background-color: rgb(15, 15, 15);
+}
+
+.currentlink {
+    background-color: rgb(5, 5, 5);
+    border: 5px solid rgb(5, 5, 5);
+}
+
+main {
+    background-color: rgb(30, 30, 30);
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-top: 7px solid rgb(20, 20, 20);
+    border-bottom: 7px solid rgb(20, 20, 20);
+    text-align: center;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.notnavlist {
+    width: 93%;
+}
+
+hgroup {
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    top: 7px;
+    font-size: small;
+    /*miten saada footer oikeaan paikkaan?*/
+}
+
+table {
+    border: none;
+    height: 305px;
+}
+
+.container {
+    column-count: 1;
+}
+
+@media only screen and (min-width: 600px) {
+    nav {
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+
+    th {
+        width: 60px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    nav {
+        width: 70%;
+        left: 10%;
+        break-inside: avoid;
+    }
+
+    .container {
+        column-count: 2;
+    }
+
+    main {
+        column-span: all;
+        margin-bottom: 20px;
+    }
+
+    main {
+        margin-top: 34px;
+    }
+
+    table {
+        position: relative;
+        left: 10%;
+    }
+
+    th {
+        width: 70px;
+    }
+}
